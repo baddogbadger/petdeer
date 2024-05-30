@@ -1,7 +1,7 @@
 html, body {
     background-image: url("https://64.media.tumblr.com/98db6ef8e77d036075b8f351902bb58d/485d779385c544e4-69/s250x400/de35752d0f4edbc7bd698c5dff625350208bf310.gif");
     background-repeat: repeat;
-    height: 1280px;
+
 }
 
 .sidenav {
@@ -48,7 +48,7 @@ iframe {
     .sidenav a {font-size: 18px;}
 }
 
-@media screen and (max-width: 100px) { /*CHANGE TO 1000*/
+@media screen and (max-width: 1000px) { 
     .sidenav {
         position: relative;
         height: 11vw;
