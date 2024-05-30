@@ -50,12 +50,13 @@ iframe {
 
 @media screen and (max-width: 1000px) {
     .sidenav {
+        position: relative;
         height: 11vw;
         width: 100%;
     }
     .main {
         margin-left: 0px;
-        margin-top: 15vw;
+        margin-top: 5%;
         padding: 0px, 10px;
     }
     .sidenav a {
@@ -69,6 +70,10 @@ iframe {
         margin-left: 2vw;
     }
     iframe {
-        width: 100%;
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 5%;
     }
+
 }
