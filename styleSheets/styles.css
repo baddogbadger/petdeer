@@ -62,6 +62,7 @@ iframe {
     html, body {
         background-image: url("https://i.ibb.co/fFT9jLM/herm.gif");
         background-repeat: repeat;
+        background-size: cover;
     }
     .main {
         margin: 3%;
