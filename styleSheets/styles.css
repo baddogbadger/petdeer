@@ -121,9 +121,9 @@ padding: 1%;
 width: 16vw;
 position: sticky;
 margin-right: 0px;
-
-
-    
+}
+p{
+    font-size: 130%;
 }
     body {
         background-image: url("../images/background.png");
