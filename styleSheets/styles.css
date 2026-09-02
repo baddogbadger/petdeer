@@ -1,10 +1,22 @@
-html, body {
-    background-image: url("https://64.media.tumblr.com/98db6ef8e77d036075b8f351902bb58d/485d779385c544e4-69/s250x400/de35752d0f4edbc7bd698c5dff625350208bf310.gif");
-    background-repeat: repeat;
+body {
+    background-image: url("../images/background.png");
+
 font-family: Arial light, Helvetica, sans-serif;
 }
 
+h4{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: 100;
+}
+a{
+    color: brown;
 
+}
 .sidenav {
     height: 100%;
     width: 160px;
@@ -12,7 +24,7 @@ font-family: Arial light, Helvetica, sans-serif;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgba(255, 200, 200, 0.5);
+    background-color: rgba(41, 41, 41, 0.5);
     overflow-x: hidden;
 }
 
@@ -24,10 +36,21 @@ font-family: Arial light, Helvetica, sans-serif;
     display: block;
 }
 
-.sidenav a:hover {
-    color: lightgray;
+.sidenav :hover {
+
+width: 100%;
+margin-right: 20%;
+
 }
 
+.sidenav a img{
+    width: 100%;
+float: left;
+margin-left: -6%;
+}
+.sidenav img :hover{
+    width: 200%;
+}
 .main {
     position: relative;
     margin-left: 160px;
@@ -36,12 +59,41 @@ font-family: Arial light, Helvetica, sans-serif;
     margin-top: 0px;
 
 }
+.box{
+    margin: 20%;
+    margin-top: 8%;
+    padding: 10%;
+    background-color: rgba(255, 255, 255, 0.725);
 
-iframe {
-    min-height: 70vh;
-    width: 30%;
-    margin: 2%;
-    border: 0px;
+
+}
+ audio{
+    width: 100%;
+
+
+ }
+.box img{
+    float: left;
+    padding-right: 3%;
+}
+h2{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.audiobox{
+display: inline-block;
+    background-image: url("../images/petdeer.jpg");
+    width: 100%;
+    padding-top: 4%;
+padding: 1%;
+    padding-bottom: 8%;
+
+
+}
+
+.audiobox h2{
+    background-color: rgba(255, 255, 255, 0.747);
 }
 
 @media screen and (max-height: 450px) {
@@ -53,13 +105,26 @@ iframe {
 }
 
 @media screen and (orientation:portrait) { 
+    .box{
+        margin: 10%;
+    }
     .sidenav {
+        padding-top: 2%;
+        padding-bottom: 1%;
         position: relative;
         height: 11vw;
         width: 100%;
     }
-    html, body {
-        background-image: url("https://i.ibb.co/fFT9jLM/herm.gif");
+    .sidenav :hover{
+width: 16vw;
+position: sticky;
+margin-right: 0px;
+
+
+    
+}
+    body {
+        background-image: url("../images/background.png");
         background-repeat: repeat;
         background-size: cover;
     }
@@ -73,18 +138,18 @@ iframe {
         margin-top: -2vw;
     }
     .sidenav a img {
-        width: 15vw;
+        width: 14vw;
         margin-bottom: -4vw;
         margin-left: 2vw;
     }
-    iframe {
-        width: 90%;
-        margin: 0% auto;
-        display: block;
-        margin-bottom: 5%;
-        margin-right: 5%;
-
+    .sidenav img{
+        width: 16vw;
+margin-bottom: -4%;
+margin-top: -10px;
+        margin-left: 2%;
+position: relative
     }
+
     video {
         width: 0px;
         height: 0px;
