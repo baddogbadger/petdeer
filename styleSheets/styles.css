@@ -127,6 +127,9 @@ margin-right: 0px;
 p{
     font-size: 150%;
 }
+h3{
+        font-size: 150%;
+}
     body {
         background-image: url("../images/background.png");
         background-repeat: repeat;
